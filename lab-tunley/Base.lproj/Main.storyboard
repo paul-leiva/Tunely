@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="261" id="cIy-83-gDt" customClass="TrackCell" customModule="lab_tunley" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TrackCell" rowHeight="261" id="cIy-83-gDt" customClass="TrackCell" customModule="lab_tunley" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="261"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cIy-83-gDt" id="GVH-fc-t84">
@@ -83,6 +83,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="RN7-BY-7fn"/>
+                    <connections>
+                        <outlet property="tableView" destination="ROh-Ud-vyT" id="9lb-g0-xNY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
