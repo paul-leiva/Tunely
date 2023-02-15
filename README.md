@@ -1,7 +1,9 @@
 # Tunely
  Tunely (Lab 2 and 3) - CodePath iOS 102
 
-## Part 1 (Lab 2)
+## Lab 2 (Part 1)
+
+<img src="part1.gif" width=250><br>
 
 #### Required Features: 
 - [x] View a list of tracks with their title, artist and album cover in a table view using custom table view cells. (For this part of the project we’ll be using hardcoded Track data models since the goal is to focus on navigation and table views. We’ll add networking in the next unit.)
