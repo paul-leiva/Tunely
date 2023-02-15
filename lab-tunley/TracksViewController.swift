@@ -25,6 +25,7 @@ class TracksViewController: UIViewController, UITableViewDataSource {
             print(track.trackName)
             print(track.artistName)
             print((track.artworkUrl100.absoluteString) + "\n")
+            print(track.releaseDate)
         }
         
         // set self as data source for table view
