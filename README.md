@@ -1,5 +1,5 @@
 # Tunely
- Tunely (Lab 2 and 3) - CodePath iOS 102
+ Tunely (Part 1) - CodePath iOS 102
 
 ## Lab 2 (Part 1)
 
